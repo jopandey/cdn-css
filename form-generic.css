@@ -1,0 +1,734 @@
+
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=f5137a75-152b-4a93-b9e8-25495cb97ab0");
+
+@font-face {
+  font-family: "TTNormsPro";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProMedium_normal_normal_subset1.woff2') format('woff2'), 
+       url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProMedium_normal_normal_subset1.woff') format('woff');
+  unicode-range: U+0020-0023,U+0026-003b,U+003d,U+003f-005b,U+005d-005e,U+0060-007a,U+007e,U+00a7,U+00ab,U+00b4,U+00b7,U+00bb,U+2010-2011,U+2013-2014,U+2018-201a,U+201c-201e,U+2020-2021,U+2026,U+2032-2033,U+2039-203a,U+0020-0024,U+0060,U+0062,U+006b,U+006e,U+0070,U+0072-0074,U+007a-007b,U+007d-007e,U+00a3,U+00a5,U+010d,U+0142,U+0301,U+0401,U+0410-044f,U+0451,U+09f3,U+0e3f,U+10da,U+17db,U+201c,U+201e,U+20a1,U+20a6,U+20a9-20ae,U+20b1-20b2,U+20b4,U+20b8-20ba,U+20bd-20be,U+2191,U+00c0-00cf,U+00d1-00d4,U+00d6,U+00d8-00dc,U+00e0-00ef,U+00f1-00f4,U+00f6,U+00f8-00fc,U+00ff-0103,U+0112-0115,U+012a-012d,U+014c-014f,U+0152-0153,U+016a-016d,U+0178,U+1e9e,U+00d1-00d6,U+00df-00ef,U+00f1-00f6,U+00ff-0101,U+0106-0107,U+0112-0113,U+012a-012b,U+0132-0133,U+0158-0159,U+0160-0161,U+017f,U+01d3-01d4,U+0440,U+20a4,U+20a6-20a7,U+0060-007b,U+011e-011f,U+0130-0131,U+015e-015f,U+060b,U+20b4-20b5,U+003f-005e,U+00a1,U+00aa-00ab,U+00ba-00bb,U+00bf-00cf,U+00d8-00dd,U+00f8-00fd,U+00c0-00c3,U+00c8-00ca,U+00cc-00cd,U+00d2-00d5,U+00d9-00da,U+00dd,U+00e0-00e3,U+00e8-00ea,U+00ec-00ed,U+00f2-00f5,U+00f9-00fa,U+00fd,U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20be,U+00c5,U+00e5;
+}
+@font-face {
+  font-family: "TTNormsPro";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProRegular_normal_normal_subset1.woff2') format('woff2'), 
+       url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProRegular_normal_normal_subset1.woff') format('woff');
+  unicode-range: U+0020-0023,U+0026-003b,U+003d,U+003f-005b,U+005d-005e,U+0060-007a,U+007e,U+00a7,U+00ab,U+00b4,U+00b7,U+00bb,U+2010-2011,U+2013-2014,U+2018-201a,U+201c-201e,U+2020-2021,U+2026,U+2032-2033,U+2039-203a,U+0020-0024,U+0060,U+0062,U+006b,U+006e,U+0070,U+0072-0074,U+007a-007b,U+007d-007e,U+00a3,U+00a5,U+010d,U+0142,U+0301,U+0401,U+0410-044f,U+0451,U+09f3,U+0e3f,U+10da,U+17db,U+201c,U+201e,U+20a1,U+20a6,U+20a9-20ae,U+20b1-20b2,U+20b4,U+20b8-20ba,U+20bd-20be,U+2191,U+00c0-00cf,U+00d1-00d4,U+00d6,U+00d8-00dc,U+00e0-00ef,U+00f1-00f4,U+00f6,U+00f8-00fc,U+00ff-0103,U+0112-0115,U+012a-012d,U+014c-014f,U+0152-0153,U+016a-016d,U+0178,U+1e9e,U+00d1-00d6,U+00df-00ef,U+00f1-00f6,U+00ff-0101,U+0106-0107,U+0112-0113,U+012a-012b,U+0132-0133,U+0158-0159,U+0160-0161,U+017f,U+01d3-01d4,U+0440,U+20a4,U+20a6-20a7,U+0060-007b,U+011e-011f,U+0130-0131,U+015e-015f,U+060b,U+20b4-20b5,U+003f-005e,U+00a1,U+00aa-00ab,U+00ba-00bb,U+00bf-00cf,U+00d8-00dd,U+00f8-00fd,U+00c0-00c3,U+00c8-00ca,U+00cc-00cd,U+00d2-00d5,U+00d9-00da,U+00dd,U+00e0-00e3,U+00e8-00ea,U+00ec-00ed,U+00f2-00f5,U+00f9-00fa,U+00fd,U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20be,U+00c5,U+00e5;
+}
+@font-face {
+  font-family: "TTNormsPro";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProLight_normal_normal_subset1.woff2') format('woff2'), 
+       url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProLight_normal_normal_subset1.woff') format('woff');
+  unicode-range: U+0020-0023,U+0026-003b,U+003d,U+003f-005b,U+005d-005e,U+0060-007a,U+007e,U+00a7,U+00ab,U+00b4,U+00b7,U+00bb,U+2010-2011,U+2013-2014,U+2018-201a,U+201c-201e,U+2020-2021,U+2026,U+2032-2033,U+2039-203a,U+0020-0024,U+0060,U+0062,U+006b,U+006e,U+0070,U+0072-0074,U+007a-007b,U+007d-007e,U+00a3,U+00a5,U+010d,U+0142,U+0301,U+0401,U+0410-044f,U+0451,U+09f3,U+0e3f,U+10da,U+17db,U+201c,U+201e,U+20a1,U+20a6,U+20a9-20ae,U+20b1-20b2,U+20b4,U+20b8-20ba,U+20bd-20be,U+2191,U+00c0-00cf,U+00d1-00d4,U+00d6,U+00d8-00dc,U+00e0-00ef,U+00f1-00f4,U+00f6,U+00f8-00fc,U+00ff-0103,U+0112-0115,U+012a-012d,U+014c-014f,U+0152-0153,U+016a-016d,U+0178,U+1e9e,U+00d1-00d6,U+00df-00ef,U+00f1-00f6,U+00ff-0101,U+0106-0107,U+0112-0113,U+012a-012b,U+0132-0133,U+0158-0159,U+0160-0161,U+017f,U+01d3-01d4,U+0440,U+20a4,U+20a6-20a7,U+0060-007b,U+011e-011f,U+0130-0131,U+015e-015f,U+060b,U+20b4-20b5,U+003f-005e,U+00a1,U+00aa-00ab,U+00ba-00bb,U+00bf-00cf,U+00d8-00dd,U+00f8-00fd,U+00c0-00c3,U+00c8-00ca,U+00cc-00cd,U+00d2-00d5,U+00d9-00da,U+00dd,U+00e0-00e3,U+00e8-00ea,U+00ec-00ed,U+00f2-00f5,U+00f9-00fa,U+00fd,U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20be,U+00c5,U+00e5;
+}
+@font-face {
+  font-family: "TTNormsPro";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProBold_normal_normal_subset1.woff2') format('woff2'), 
+       url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/TTNormsPro/TTNormsProBold_normal_normal_subset1.woff') format('woff');
+  unicode-range: U+0020-0023,U+0026-003b,U+003d,U+003f-005b,U+005d-005e,U+0060-007a,U+007e,U+00a7,U+00ab,U+00b4,U+00b7,U+00bb,U+2010-2011,U+2013-2014,U+2018-201a,U+201c-201e,U+2020-2021,U+2026,U+2032-2033,U+2039-203a,U+0020-0024,U+0060,U+0062,U+006b,U+006e,U+0070,U+0072-0074,U+007a-007b,U+007d-007e,U+00a3,U+00a5,U+010d,U+0142,U+0301,U+0401,U+0410-044f,U+0451,U+09f3,U+0e3f,U+10da,U+17db,U+201c,U+201e,U+20a1,U+20a6,U+20a9-20ae,U+20b1-20b2,U+20b4,U+20b8-20ba,U+20bd-20be,U+2191,U+00c0-00cf,U+00d1-00d4,U+00d6,U+00d8-00dc,U+00e0-00ef,U+00f1-00f4,U+00f6,U+00f8-00fc,U+00ff-0103,U+0112-0115,U+012a-012d,U+014c-014f,U+0152-0153,U+016a-016d,U+0178,U+1e9e,U+00d1-00d6,U+00df-00ef,U+00f1-00f6,U+00ff-0101,U+0106-0107,U+0112-0113,U+012a-012b,U+0132-0133,U+0158-0159,U+0160-0161,U+017f,U+01d3-01d4,U+0440,U+20a4,U+20a6-20a7,U+0060-007b,U+011e-011f,U+0130-0131,U+015e-015f,U+060b,U+20b4-20b5,U+003f-005e,U+00a1,U+00aa-00ab,U+00ba-00bb,U+00bf-00cf,U+00d8-00dd,U+00f8-00fd,U+00c0-00c3,U+00c8-00ca,U+00cc-00cd,U+00d2-00d5,U+00d9-00da,U+00dd,U+00e0-00e3,U+00e8-00ea,U+00ec-00ed,U+00f2-00f5,U+00f9-00fa,U+00fd,U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20be,U+00c5,U+00e5;
+}
+/* Placard Next */
+@font-face {
+  font-family: "PlacardNext";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/PlacardNext/PlacardNextBold_normal_normal.woff2') format('woff2'), 
+       url('https://cdn.fonts.net/kit/f5137a75-152b-4a93-b9e8-25495cb97ab0/PlacardNext/PlacardNextBold_normal_normal.woff') format('woff');
+}
+/* 
+  Root tokens of the Adjust Web Design System.
+*/
+:root {
+  --colorOpacity: 1;
+
+  /* Primary Colors */
+  --transparent: transparent;
+  --white: 255, 255, 255;
+  --black: 0, 0, 0;
+  --blue-600: 0, 24, 71;
+  --blue-500: 0, 42, 158;
+  --blue-400: 0, 95, 247;
+  --blue-300: 119, 177, 247;
+  --blue-200: 183, 216, 249;
+  --blue-100: 226, 239, 253;
+  --blue-50: 242, 247, 255;
+  --green-600: 1, 62, 62;
+  --green-500: 0, 92, 91;
+  --green-400: 9, 187, 159;
+  --green-300: 102, 218, 201;
+  --green-200: 176, 244, 231;
+  --green-100: 223, 251, 245;
+  --green-50: 242, 252, 251;
+  --purple-600: 54, 9, 102;
+  --purple-500: 118, 21, 204;
+  --purple-400: 169, 100, 249;
+  --purple-300: 203, 162, 251;
+  --purple-200: 222, 196, 247;
+  --purple-100: 242, 231, 252;
+  --purple-50: 250, 245, 254;
+  --rose-600: 102, 8, 53;
+  --rose-500: 158, 32, 76;
+  --rose-400: 248, 77, 121;
+  --rose-300: 251, 148, 175;
+  --rose-200: 247, 196, 211;
+  --rose-100: 252, 231, 237;
+  --rose-50: 254, 245, 248;
+  --azure-600: 10, 50, 89;
+  --azure-500: 4, 100, 153;
+  --azure-400: 25, 147, 216;
+  --azure-300: 109, 197, 244;
+  --azure-200: 170, 225, 255;
+  --azure-100: 222, 243, 255;
+  --azure-50: 242, 250, 255;
+  --slate-600: 4, 24, 43;
+  --slate-500: 50, 59, 96;
+  --slate-400: 97, 110, 158;
+  --slate-300: 140, 151, 196;
+  --slate-200: 182, 193, 221;
+  --slate-100: 228, 231, 239;
+  --slate-50: 247, 248, 250;
+  
+  /* Secondary colors */
+  --gray-600: 51, 51, 51;
+  --gray-500: 102, 102, 102;
+  --gray-400: 153, 153, 153;
+  --gray-300: 204, 204, 204;
+  --gray-200: 230, 230, 230;
+  --gray-100: 242, 242, 242;
+  --gray-50: 250, 250, 250;
+  --indigo-600: 28, 22, 96;
+  --indigo-500: 55, 44, 191;
+  --indigo-400: 112, 92, 234;
+  --indigo-300: 171, 161, 244;
+  --indigo-200: 205, 199, 248;
+  --indigo-100: 230, 227, 252;
+  --indigo-50: 248, 247, 254;
+  --magenta-600: 80, 14, 76;
+  --magenta-500: 159, 27, 152;
+  --magenta-400: 216, 72, 209;
+  --magenta-300: 240, 144, 239;
+  --magenta-200: 246, 188, 245;
+  --magenta-100: 247, 218, 246;
+  --magenta-50: 253, 246, 253;
+  --vermillion-600: 98, 40, 26;
+  --vermillion-500: 174, 71, 47;
+  --vermillion-400: 227, 109, 89;
+  --vermillion-300: 239, 176, 163;
+  --vermillion-200: 249, 223, 228;
+  --vermillion-100: 253, 242, 240;
+  --vermillion-50: 254, 250, 249;
+  --yellow-600: 147, 129, 23;
+  --yellow-500: 192, 173, 64;
+  --yellow-400: 228, 207, 96;
+  --yellow-300: 246, 233, 169;
+  --yellow-200: 251, 246, 221;
+  --yellow-100: 253, 251, 241;
+  --yellow-50: 254, 253, 249;
+  --lime-600: 77, 125, 46;
+  --lime-500: 103, 166, 61;
+  --lime-400: 133, 255, 90;
+  --lime-300: 206, 247, 174;
+  --lime-200: 235, 252, 233;
+  --lime-100: 247, 254, 242;
+  --lime-50: 252, 255, 250;
+
+  /* RGBA Colors No Opacity */
+  --rgba-white:  rgba(var(--white), var(--colorOpacity));
+  --rgba-black:  rgba(var(--black), var(--colorOpacity));
+  --rgba-blue-600: rgba(var(--blue-600), var(--colorOpacity));
+  --rgba-blue-500: rgba(var(--blue-500), var(--colorOpacity));
+  --rgba-blue-400: rgba(var(--blue-400), var(--colorOpacity));
+  --rgba-blue-300: rgba(var(--blue-300), var(--colorOpacity));
+  --rgba-blue-200: rgba(var(--blue-200), var(--colorOpacity));
+  --rgba-blue-100: rgba(var(--blue-100), var(--colorOpacity));
+  --rgba-blue-50: rgba(var(--blue-50), var(--colorOpacity));
+  --rgba-green-600: rgba(var(--green-600), var(--colorOpacity));
+  --rgba-green-500: rgba(var(--green-500), var(--colorOpacity));
+  --rgba-green-400: rgba(var(--green-400), var(--colorOpacity));
+  --rgba-green-300: rgba(var(--green-300), var(--colorOpacity));
+  --rgba-green-200: rgba(var(--green-200), var(--colorOpacity));
+  --rgba-green-100: rgba(var(--green-100), var(--colorOpacity));
+  --rgba-green-50: rgba(var(--green-50), var(--colorOpacity));
+  --rgba-purple-600: rgba(var(--purple-600), var(--colorOpacity));
+  --rgba-purple-500: rgba(var(--purple-500), var(--colorOpacity));
+  --rgba-purple-400: rgba(var(--purple-400), var(--colorOpacity));
+  --rgba-purple-300: rgba(var(--purple-300), var(--colorOpacity));
+  --rgba-purple-200: rgba(var(--purple-200), var(--colorOpacity));
+  --rgba-purple-100: rgba(var(--purple-100), var(--colorOpacity));
+  --rgba-purple-50: rgba(var(--purple-50), var(--colorOpacity));
+  --rgba-rose-600: rgba(var(--rose-600), var(--colorOpacity));
+  --rgba-rose-500: rgba(var(--rose-500), var(--colorOpacity));
+  --rgba-rose-400: rgba(var(--rose-400), var(--colorOpacity));
+  --rgba-rose-300: rgba(var(--rose-300), var(--colorOpacity));
+  --rgba-rose-200: rgba(var(--rose-200), var(--colorOpacity));
+  --rgba-rose-100: rgba(var(--rose-100), var(--colorOpacity));
+  --rgba-rose-50: rgba(var(--rose-50), var(--colorOpacity));
+  --rgba-azure-600: rgba(var(--azure-600), var(--colorOpacity));
+  --rgba-azure-500: rgba(var(--azure-500), var(--colorOpacity));
+  --rgba-azure-400: rgba(var(--azure-400), var(--colorOpacity));
+  --rgba-azure-300: rgba(var(--azure-300), var(--colorOpacity));
+  --rgba-azure-200: rgba(var(--azure-200), var(--colorOpacity));
+  --rgba-azure-100: rgba(var(--azure-100), var(--colorOpacity));
+  --rgba-azure-50: rgba(var(--azure-50), var(--colorOpacity));
+  --rgba-slate-600: rgba(var(--slate-600), var(--colorOpacity));
+  --rgba-slate-500: rgba(var(--slate-500), var(--colorOpacity));
+  --rgba-slate-400: rgba(var(--slate-400), var(--colorOpacity));
+  --rgba-slate-300: rgba(var(--slate-300), var(--colorOpacity));
+  --rgba-slate-200: rgba(var(--slate-200), var(--colorOpacity));
+  --rgba-slate-100: rgba(var(--slate-100), var(--colorOpacity));
+  --rgba-slate-50: rgba(var(--slate-50), var(--colorOpacity));
+  
+  /* Secondary colors */
+  --rgba-gray-600: rgba(var(--gray-600), var(--colorOpacity));
+  --rgba-gray-500: rgba(var(--gray-500), var(--colorOpacity));
+  --rgba-gray-400: rgba(var(--gray-400), var(--colorOpacity));
+  --rgba-gray-300: rgba(var(--gray-300), var(--colorOpacity));
+  --rgba-gray-200: rgba(var(--gray-200), var(--colorOpacity));
+  --rgba-gray-100: rgba(var(--gray-100), var(--colorOpacity));
+  --rgba-gray-50: rgba(var(--gray-50), var(--colorOpacity));
+  --rgba-indigo-600: rgba(var(--indigo-600), var(--colorOpacity));
+  --rgba-indigo-500: rgba(var(--indigo-500), var(--colorOpacity));
+  --rgba-indigo-400: rgba(var(--indigo-400), var(--colorOpacity));
+  --rgba-indigo-300: rgba(var(--indigo-300), var(--colorOpacity));
+  --rgba-indigo-200: rgba(var(--indigo-200), var(--colorOpacity));
+  --rgba-indigo-100: rgba(var(--indigo-100), var(--colorOpacity));
+  --rgba-indigo-50: rgba(var(--indigo-50), var(--colorOpacity));
+  --rgba-magenta-600: rgba(var(--magenta-600), var(--colorOpacity));
+  --rgba-magenta-500: rgba(var(--magenta-500), var(--colorOpacity));
+  --rgba-magenta-400: rgba(var(--magenta-400), var(--colorOpacity));
+  --rgba-magenta-300: rgba(var(--magenta-300), var(--colorOpacity));
+  --rgba-magenta-200: rgba(var(--magenta-200), var(--colorOpacity));
+  --rgba-magenta-100: rgba(var(--magenta-100), var(--colorOpacity));
+  --rgba-magenta-50: rgba(var(--magenta-50), var(--colorOpacity));
+  --rgba-vermillion-600: rgba(var(--vermillion-600), var(--colorOpacity));
+  --rgba-vermillion-500: rgba(var(--vermillion-500), var(--colorOpacity));
+  --rgba-vermillion-400: rgba(var(--vermillion-400), var(--colorOpacity));
+  --rgba-vermillion-300: rgba(var(--vermillion-300), var(--colorOpacity));
+  --rgba-vermillion-200: rgba(var(--vermillion-200), var(--colorOpacity));
+  --rgba-vermillion-100: rgba(var(--vermillion-100), var(--colorOpacity));
+  --rgba-vermillion-50: rgba(var(--vermillion-50), var(--colorOpacity));
+  --rgba-yellow-600: rgba(var(--yellow-600), var(--colorOpacity));
+  --rgba-yellow-500: rgba(var(--yellow-500), var(--colorOpacity));
+  --rgba-yellow-400: rgba(var(--yellow-400), var(--colorOpacity));
+  --rgba-yellow-300: rgba(var(--yellow-300), var(--colorOpacity));
+  --rgba-yellow-200: rgba(var(--yellow-200), var(--colorOpacity));
+  --rgba-yellow-100: rgba(var(--yellow-100), var(--colorOpacity));
+  --rgba-yellow-50: rgba(var(--yellow-50), var(--colorOpacity));
+  --rgba-lime-600: rgba(var(--lime-600), var(--colorOpacity));
+  --rgba-lime-500: rgba(var(--lime-500), var(--colorOpacity));
+  --rgba-lime-400: rgba(var(--lime-400), var(--colorOpacity));
+  --rgba-lime-300: rgba(var(--lime-300), var(--colorOpacity));
+  --rgba-lime-200: rgba(var(--lime-200), var(--colorOpacity));
+  --rgba-lime-100: rgba(var(--lime-100), var(--colorOpacity));
+  --rgba-lime-50: rgba(var(--lime-50), var(--colorOpacity));
+}
+/* Tables */
+table{
+  width: 100%;
+  min-width: 96px;
+  overflow: auto;
+  background-color: rgba(var(--slate-50), 1);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+table tr{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+table th,
+table td{
+  border-collapse: collapse;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+table td{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+table th{
+  border-bottom-width: 1px;
+  border-color: rgba(var(--slate-100), 1);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: left;
+  font-weight: 700;
+  color: rgba(var(--slate-400), 1);
+}
+table tr th:first-child,
+table tr td:first-child{
+  padding-left: 24px;
+}
+table tr th:last-child,
+table tr td:last-child{
+  padding-right: 24px;
+}
+@media (max-width: 639px) {
+  table{
+    display: block;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+form table {
+  display: block;
+}
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+html{
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: TTNormsPro, Noto Sans JP, Noto Sans KR, Noto Sans SC, Sarabun, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+#adjustFormContainer{
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#adjustFormContainer.loaded{
+  opacity: 1;
+}
+form {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+form iframe{
+  pointer-events: none;
+  visibility: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+}
+form a{
+  color: rgba(var(--blue-400), 1);
+}
+form a:hover{
+  text-decoration-line: underline;
+}
+form,
+form input,
+form textarea,
+form select{
+  font-family: TTNormsPro, Noto Sans JP, Noto Sans KR, Noto Sans SC, Sarabun, sans-serif;
+}
+form input[type="text"],
+form input[type="checkbox"],
+form input[type="radio"],
+form textarea,
+form select {
+  outline: 0;
+  width: 100%;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(var(--slate-100), 1);
+  background-color: rgba(var(--white), 1);
+  padding: 12px;
+  font-family: TTNormsPro, Noto Sans JP, Noto Sans KR, Noto Sans SC, Sarabun, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(var(--black), 1);
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+form input[type="text"].--small,
+form input[type="checkbox"].--small,
+form input[type="radio"].--small,
+form textarea.--small,
+form select.--small{
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+}
+form input[type="text"]:active,
+form input[type="checkbox"]:active,
+form input[type="radio"]:active,
+form textarea:active,
+form select:active {
+  outline-color: rgba(0,0,0,0);
+  outline-style: none;
+}
+form input[type="text"]::-webkit-input-placeholder,
+form input[type="checkbox"]::-webkit-input-placeholder,
+form input[type="radio"]::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder,
+form select::-webkit-input-placeholder{
+  color: rgba(var(--slate-200), 1);
+}
+form input[type="text"]:-moz-placeholder,
+form input[type="checkbox"]:-moz-placeholder,
+form input[type="radio"]:-moz-placeholder,
+form textarea:-moz-placeholder,
+form select:-moz-placeholder{
+  color: rgba(var(--slate-200), 1);
+}
+form input[type="text"]::-moz-placeholder,
+form input[type="checkbox"]::-moz-placeholder,
+form input[type="radio"]::-moz-placeholder,
+form textarea::-moz-placeholder,
+form select::-moz-placeholder{
+  color: rgba(var(--slate-200), 1);
+}
+form input[type="text"]:-ms-input-placeholder,
+form input[type="checkbox"]:-ms-input-placeholder,
+form input[type="radio"]:-ms-input-placeholder,
+form textarea:-ms-input-placeholder,
+form select:-ms-input-placeholder{
+  color: rgba(var(--slate-200), 1);
+}
+form textarea {
+  max-height: 100px;
+}
+form select {
+  outline: 0;
+  background-image: url("https://a.storyblok.com/f/47007/20x40/b9d1d7bd66/pardot_form_chevron_down.svg");
+  background-position: right 12px center;
+  background-size: 20px 40px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgba(var(--white), 1);
+  background-repeat: no-repeat;
+}
+form .error select {
+  background-image: url("https://a.storyblok.com/f/47007/20x20/86cf8499af/pardot_form_chevron_down-error.svg");  
+}
+form select[multiple="multiple"]{
+  height: auto;
+  overflow-y: scroll;
+  background-image: none;
+}
+form input[type="checkbox"],
+form input[type="radio"] {
+  min-height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 4px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+form input[type="submit"]{
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 64px;
+  border-width: 0px;
+  background-color: rgba(var(--blue-400), 1);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: rgba(var(--white), 1);
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+form input[type="submit"]:hover{
+  background-color: rgba(var(--slate-600), 1);
+  color: rgba(var(--white), 1);
+}
+form #resubscribeConfirmText,
+form label{
+  float: none;
+  margin-bottom: 0px;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: rgba(var(--black), 1);
+}
+form form #resubscribeConfirmText,form 
+form label {
+  display: block;
+}
+form label.inline {
+  display: inline;
+}
+form .block {
+  display: block;
+}
+form.form{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 0.75rem;
+}
+/* Form direct children: use gap for spacing instead of margin */
+form.form > .form-field,
+form.form > .fields-inlined,
+form.form > .submit,
+form.form > .error,
+form.form > #resubscribeConfirmText{
+  margin-top: 0px;
+}
+form.form > .form-field {
+  flex: 1 1 100%;
+}
+/* Side-by-side fields: add class "field-inline" in Pardot to display two fields in one row */
+form.form > .form-field.field-inline {
+  flex: 1 1 calc(50% - 0.8rem);
+  min-width: 0;
+}
+form.form > .fields-inlined {
+  flex: 1 1 100%;
+}
+form.form.loaded.submitting{
+  pointer-events: none;
+  position: relative;
+  opacity: 0.8;
+}
+form.form.loaded.submitting:after {
+  content: "";
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    rgba(var(--blue-400), 0) calc(100% - 8px),
+    rgba(var(--blue-400), 1) 0
+  );
+          mask: radial-gradient(
+    farthest-side,
+    rgba(var(--blue-400), 0) calc(100% - 8px),
+    rgba(var(--blue-400), 1) 0
+  );
+  background: radial-gradient(
+    farthest-side,
+    rgba(var(--blue-400), 1) 73%, rgba(var(--blue-400), 0)) top / 8px 8px no-repeat,
+    conic-gradient(rgba(var(--blue-400), 0) 30%, rgba(var(--blue-400), 1)
+  );
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 48px;
+  width: 48px;
+}
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+form.form.loaded.submitting:after{
+  animation: spin 1s linear infinite;
+  border-radius: 9999px;
+}
+form .form-field.required > .field-label:after {
+  content: "*";
+  margin-left: 4px;
+  font-weight: 700;
+  color: rgba(var(--rose-400), 1);
+}
+form .form-field .description{
+  display: none;
+}
+form .form-field.pd-radio .value{
+  margin-bottom: 16px;
+}
+form .form-field.pd-radio .value span{
+  display: block;
+}
+form form .form-field.pd-radio .value span {
+  display: block;
+}
+form .form-field.multi-select .value {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 12px;
+}
+form .form-field.multi-select .value span {
+  margin-right: 12px;
+}
+form .form-field.multi-select .field-label {
+  margin-bottom: 12px;
+}
+form .form-field.multi-select .inline {
+  margin-left: 12px;
+}
+form .form .value{
+  margin-left: 0px;
+}
+form .fields-inlined{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+form .fields-inlined .form-field{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+form .error:not(input){
+  margin: 0px;
+  padding-bottom: 0px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: rgba(var(--rose-400), 1);
+  padding-top: 0.25rem;
+}
+/* Tighten space between input field and the error message below it */
+form.form > p.error.no-label {
+  margin-top: -0.5rem;
+  padding-top: 0.25rem;
+}
+form .submit{
+  text-align: center;
+}
+form #disclaimer-override,
+form #disclaimer{
+  display: none;
+}
+form #disclaimer{
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: rgba(var(--gray-400), 1);
+}
+form #disclaimer a{
+  color: rgba(var(--blue-400), 1);
+}
+form .g-recaptcha iframe{
+  pointer-events: auto;
+  visibility: visible;
+  position: static;
+  height: auto;
+  width: auto;
+  opacity: 1;
+}
+/* Light Theme */
+form.-theme-light a,
+form.-theme-light #resubscribeConfirmText,
+form.-theme-light label,
+form.-theme-light #form-error,
+form.-theme-light #disclaimer,
+form.-theme-light .errors {
+  color: rgba(var(--slate-300), 1) !important;
+}
+form.-theme-light input[type="text"]::-webkit-input-placeholder,
+form.-theme-light input[type="checkbox"]::-webkit-input-placeholder,
+form.-theme-light input[type="radio"]::-webkit-input-placeholder,
+form.-theme-light textarea::-webkit-input-placeholder,
+form.-theme-light select::-webkit-input-placeholder{
+  color: rgba(var(--slate-400), 1);
+}
+form.-theme-light input[type="text"],
+form.-theme-light input[type="checkbox"],
+form.-theme-light input[type="radio"],
+form.-theme-light textarea,
+form.-theme-light select {
+  outline: 0;
+  border-color: rgba(var(--slate-500), 1);
+  background-color: rgba(var(--slate-500), 1);
+  color: rgba(var(--white), 1);
+}
+form.-theme-light input[type="submit"]{
+  background-color: rgba(var(--blue-400), 1);
+  color: rgba(var(--white), 1);
+}
+form.-theme-light input[type="submit"]:hover{
+  background-color: rgba(var(--white), 1);
+  color: rgba(var(--slate-600), 1);
+}
+form input[type="text"]:hover,
+form input[type="text"]:focus,
+form input[type="checkbox"]:hover,
+form input[type="checkbox"]:focus,
+form input[type="radio"]:hover,
+form input[type="radio"]:focus,
+form textarea:hover,
+form textarea:focus,
+form select:hover,
+form select:focus,
+form.-theme-light textarea:hover,
+form.-theme-light textarea:focus,
+form.-theme-light input[type="text"]:hover,
+form.-theme-light input[type="text"]:focus,
+form.-theme-light input[type="checkbox"]:hover,
+form.-theme-light input[type="checkbox"]:focus,
+form.-theme-light input[type="radio"]:hover,
+form.-theme-light input[type="radio"]:focus,
+form.-theme-light textarea:hover,
+form.-theme-light textarea:focus,
+form.-theme-light select:hover,
+form.-theme-light select:focus{
+  border-color: rgba(var(--blue-400), 1);
+}
+form.-theme-light select {
+  background-image: url("https://a.storyblok.com/f/47007/20x20/85e1425331/pardot_form_chevron_down-theme-light.svg");
+}
+form .error,
+form .error input[type="text"],
+form .error textarea,
+form .error select,
+form.-theme-light .error select{
+  border-color: rgba(var(--rose-400), 1);
+}
+/* Media Queries */
+@media screen and (max-width: 414px) {
+  /* Stack side-by-side fields on small screens */
+  form.form > .form-field.field-inline {
+    flex: 1 1 100%;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 520px) {
+  form.-align-left .submit,
+  form.-align-left #disclaimer{
+    text-align: left;
+  }
+
+  form .form-field.multi-select .value {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 225px) {
+  form.-align-left .submit,
+  form.-align-left #disclaimer{
+    text-align: left;
+  }
+}
